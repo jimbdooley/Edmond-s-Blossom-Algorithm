@@ -200,8 +200,8 @@ def max_matching(adj):
         for j in adj[i]:
             vertex['adj'].append(j)
         G.append(vertex)
-    #these following 6 lines are the base of the algorithm. 
-    #If you find an augmenting path invert it and look for another augmenting path
+    #these following 6 lines are the core of many matching algorithms, the strategy of finding the paths is what changes
+    #If you find an augmenting path, invert it and look for another augmenting path
     #If you can't find one, the graph is at a maximum matching and the algorithm concludes
     while True:
         aug_path = find_aug_path(G)
@@ -216,7 +216,7 @@ def max_matching(adj):
             matching.append((i,G[i]['partner']))
     return matching                         
         
-        
+#some examples:        
         
 test_adj_0 = [
 [1,2,3],
