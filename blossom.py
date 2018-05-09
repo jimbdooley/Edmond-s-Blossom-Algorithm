@@ -232,5 +232,5 @@ test_adj_1 = [
 [0,5],
 [4]]
                   
-print max_matching(test_adj_0) 
-print max_matching(test_adj_1)     
+print(max_matching(test_adj_0))
+print(max_matching(test_adj_1))     
