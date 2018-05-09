@@ -119,7 +119,7 @@ def contract(G,v,w):
     contracted_G.append(blossom_vertex)
     return contracted_G
             
-        
+#the algorithm takes an adjacency list and returns a maximum matching in the form of a list of partners as tuples
 def max_matching(adj):
     def invert(aug_path,G): 
         for i in range(len(aug_path)//2):
