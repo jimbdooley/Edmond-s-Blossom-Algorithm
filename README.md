@@ -1,5 +1,5 @@
 # Edmond-s-Blossom-Algorithm
-Python version of Edmond's Blossom Algorithm, as described by Wikipedia
+Python and Javascript version of Edmond's Blossom Algorithm, as described by Wikipedia
 
 '''
 This is my attempt to translate the Blossom Algorithm described here 
