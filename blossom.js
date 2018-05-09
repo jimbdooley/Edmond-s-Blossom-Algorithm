@@ -216,7 +216,7 @@ function BLOSSOM(adj){
 		}
 	}
 	var pairs = [];
-    for(let i = 0; i<G.length; i++){
+        for(let i = 0; i<G.length; i++){
 		if(i<G[i].partner){
 			pairs.push([i,G[i].partner]);
 		}
