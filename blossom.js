@@ -1,3 +1,4 @@
+//comments are in the Python version
 
 function expand(G,G_prime,P_prime){
 	if(!P_prime.includes(G.length)){
